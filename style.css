@@ -138,3 +138,18 @@ h1 {
     text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px #1e1e2f;
     cursor: default; /* Keeps it from looking like a link */
 }
+
+#about-heading {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1e1e2f;
+    text-shadow: none;
+
+}
+
+#contact-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: #1e1e2f;
+    text-shadow: none;
+}
