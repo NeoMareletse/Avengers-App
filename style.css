@@ -22,14 +22,15 @@ h2 {
 #menu {
     width: 100%;
     height: 40px;
-    background-color: #0b0c2a;
+    background-color: #1e1e2f;
 
     padding-top: 12px;
     text-align: center;
+    border-radius: 20px; /* ← This makes the edges curvy */
 }
 
 p{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: gold;
 }
 
@@ -67,7 +68,7 @@ p {
 }
 
 body {
-    background-color: #0b0c2a;
+    background-color: #8B0000;
 }
 
 
@@ -122,4 +123,18 @@ h1 {
 .btn:hover {
     background-color: #0033cc;
     color: yellow;
+}
+
+.hero-heading {
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    color: gold;
+    text-align: center;
+    transition: text-shadow 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* Glow on hover */
+.hero-heading:hover {
+    text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px #1e1e2f;
+    cursor: default; /* Keeps it from looking like a link */
 }
