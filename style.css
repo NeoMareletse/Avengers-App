@@ -78,6 +78,13 @@ h1 {
   color: gold;
   text-shadow: 0 0 5px red, 0 0 10px blue;
   text-align: center;
+  transition: text-shadow 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* Glow on hover */
+h1:hover {
+    text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px #1e1e2f;
+    cursor: default; /* Keeps it from looking like a link */
 }
 
 .gallery {
@@ -123,20 +130,6 @@ h1 {
 .btn:hover {
     background-color: #0033cc;
     color: yellow;
-}
-
-.hero-heading {
-    font-family: 'Bangers', cursive;
-    font-size: 60px;
-    color: gold;
-    text-align: center;
-    transition: text-shadow 0.3s ease-in-out; /* Smooth effect */
-}
-
-/* Glow on hover */
-.hero-heading:hover {
-    text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px #1e1e2f;
-    cursor: default; /* Keeps it from looking like a link */
 }
 
 #about-heading {
